@@ -17,12 +17,11 @@ syntastic_tex_checkers = ['lacheck']
 
 colorscheme jellybeans
 
-#for transparent terminal
-hi Normal ctermbg=none
+hi Normal ctermbg=none   %%for transparent terminal
 
 #NerdTree    
 
-/#open nerdtree automatically when excuting vim with no files
+%% open nerdtree automatically when excuting vim with no files
 
 autocmd StdinReadPre * let s:std_in=1
 
