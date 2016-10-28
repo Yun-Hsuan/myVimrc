@@ -1,8 +1,8 @@
-/*************************/
+=======================================
 My vimrc  -- Yun-Hsuan Chou
-/*************************/
+=======================================
 
-This vimrc is design for editting c/c++, python and Latex.
+This vimrc is designed for editting c/c++, python and Latex.
 
 -----------------------------------------
 
