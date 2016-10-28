@@ -5,7 +5,12 @@ My vimrc  -- Yun-Hsuan Chou
 This vimrc is designed for editting c/c++, python and Latex.
 
 -----------------------------------------
+#Usage
 
+1. Set up Vundle
+
+$ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+-----------------------------------------
 
 #Syntastic checker list 
 

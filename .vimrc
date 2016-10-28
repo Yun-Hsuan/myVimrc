@@ -1,23 +1,22 @@
 set nu
 set nocompatible              
+syntax on
 filetype off                  
 
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
+"Plugin 'LaTeX-Box-Team/LaTeX-Box'
+"Plugin 'gmarik/Vundle.vim'
+"Plugin 'easymotion/vim-easymotion'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'bling/vim-airline'
 Plugin 'scrooloose/syntastic'
-Plugin 'justinmk/vim-sneak'
-Plugin 'tpope/vim-surround'
-Plugin 'Yggdroot/indentLine'
-Plugin 'flazz/vim-colorschemes'
-Plugin 'scrooloose/nerdtree'
-Plugin 'jiangmiao/auto-pairs'
 "Plugin 'SirVer/ultisnips'
 "Plugin 'edsono/vim-matchit'
 "Plugin 'elzr/vim-json'
 "Plugin 'honza/vim-snippets'
+Plugin 'justinmk/vim-sneak'
 "Plugin 'kien/ctrlp.vim'
 "Plugin 'ludovicchabant/vim-lawrencium'
 "Plugin 'majutsushi/tagbar'
@@ -26,16 +25,18 @@ Plugin 'jiangmiao/auto-pairs'
 "Plugin 'scrooloose/nerdcommenter'
 "Plugin 'sjl/gundo.vim'
 "Plugin 'tpope/vim-sleuth'
+Plugin 'tpope/vim-surround'
 "Plugin 'tyru/open-browser.vim'
 "Plugin 'vim-scripts/a.vim'
 "Plugin 'tpope/vim-fugitive'
 "Plugin 'L9'
 "Plugin 'git://git.wincent.com/command-t.git'
 "Plugin 'rstacruz/sparkup', {'rtp': 'vim/'} 
-"Plugin 'LaTeX-Box-Team/LaTeX-Box'
-"Plugin 'gmarik/Vundle.vim'
-"Plugin 'easymotion/vim-easymotion'
+Plugin 'Yggdroot/indentLine'
 "Plugin 'tomasr/molokai'
+Plugin 'flazz/vim-colorschemes'
+Plugin 'scrooloose/nerdtree'
+Plugin 'jiangmiao/auto-pairs'
 
 call vundle#end()            
 filetype plugin indent on    
