@@ -17,7 +17,9 @@ syntastic_tex_checkers = ['lacheck']
 
 colorscheme jellybeans
 
-hi Normal ctermbg=none   %%for transparent terminal
+%%for transparent terminal
+
+hi Normal ctermbg=none 
 
 #NerdTree    
 
