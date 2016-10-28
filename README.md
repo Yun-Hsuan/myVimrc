@@ -1,24 +1,23 @@
-=======================================
-My vimrc  -- Yun-Hsuan Chou
-=======================================
+##My vimrc  -- Yun-Hsuan Chou
 
 This vimrc is designed for editting c/c++, python and Latex.
 
 -----------------------------------------
-#Usage
+##Usage
 
-1. Set up Vundle
+1. Set up [Vundle]:
 
-$ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+   `$ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
+
 -----------------------------------------
 
-#Syntastic checker list 
+##Syntastic checker list 
 
 syntastic_python_checkers = ['pyflakes']
 
 syntastic_tex_checkers = ['lacheck']
 
-#Color Scheme    
+##Color Scheme    
 
 colorscheme jellybeans
 
@@ -26,7 +25,7 @@ colorscheme jellybeans
 
 hi Normal ctermbg=none 
 
-#NerdTree    
+##NerdTree    
 
 %% open nerdtree automatically when excuting vim with no files
 
