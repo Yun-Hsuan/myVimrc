@@ -17,7 +17,7 @@ This vimrc is designed for editting c/c++, python and Latex.
 
    `$ cp <path to>/myVimrc/.vimrc ~/.vimrc`
 
-Please backup the original .vimrc berfore you over-write it.
+    Please backup the original .vimrc berfore you over-write it.
 
 4. Install the plugins
 
