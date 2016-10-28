@@ -33,7 +33,7 @@ Please backup the original .vimrc berfore you over-write it.
 
     Latex : lacheck, etc...
 
-    You can show the available checkers for [Syntastic] with the comment:
+    You can show the available checkers for [Syntastic] with the command:
 
       `:SyntasticInfo`
 
