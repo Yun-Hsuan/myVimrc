@@ -29,13 +29,13 @@ Please backup the original .vimrc berfore you over-write it.
 
 6. Make sure you have the checkers which are supported by [Syntastic]:
 
-Python: pyflakes, pylint, python, etc...
+    Python: pyflakes, pylint, python, etc...
 
-Latex : lacheck, etc...
+    Latex : lacheck, etc...
 
-You can show the available checkers for [Syntastic] with the comment:
+    You can show the available checkers for [Syntastic] with the comment:
 
-   `:SyntasticInfo`
+      `:SyntasticInfo`
 
 
 -----------------------------------------
