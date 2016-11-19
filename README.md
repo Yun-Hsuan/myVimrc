@@ -25,6 +25,18 @@ This vimrc is designed for editting c/c++, python and Latex.
 
 5. Copy .ycm_extra_conf.py into home director
 
+   `$ cd ~/.vim/bundle/YouCompleteMe`
+    
+    if you want to compile [YCM] with semantic support for C-like languages:
+
+   `$ ./install.py --clang-completer`
+
+    or without C-like languages:
+
+   `$ ./install.py`
+
+    Then copy the '.ycm_extra_conf.py' to the home dierator.
+
    `$ cp <path to>/myVimrc/.ycm_extra_conf.py ~/.ycm_extra_conf.py`
 
 6. Make sure you have the checkers which are supported by [Syntastic]:
@@ -68,3 +80,4 @@ autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 [myVimrc]:https://github.com/Yun-Hsuan/myVimrc
 [Syntastic]:https://github.com/scrooloose/syntastic
 [Git]:http://git-scm.com
+[YCM]:https://github.com/Valloric/YouCompleteMe
